@@ -18,31 +18,31 @@ import { Link as RouterLink } from 'react-router-dom';
 
 const services = [
   {
-    title: 'Corporate Finance & Advisory',
-    description: 'Strategic financial guidance including business valuation, due diligence, and internal audit services.',
-    icon: FiTrendingUp,
-    features: ['Business Valuation', 'Due Diligence', 'Internal Audit'],
-    color: 'blue',
-  },
-  {
-    title: 'Accounting, Tax & Compliance',
-    description: 'Comprehensive accounting, taxation, and regulatory compliance solutions for businesses of all sizes.',
+    title: 'GST & Tax Compliance',
+    description: 'Complete GST registration, filing, and compliance services along with income tax planning and filing.',
     icon: FiFileText,
-    features: ['GST Services', 'International Tax', 'Payroll Management'],
+    features: ['GST Registration & Filing', 'Income Tax Returns', 'TDS Compliance'],
     color: 'green',
   },
   {
-    title: 'Business Setup & Secretarial',
-    description: 'Complete business incorporation, regulatory registrations, and ongoing secretarial services.',
+    title: 'Company Registration & ROC',
+    description: 'Private Limited, LLP, and OPC registration with complete ROC compliance and annual filings.',
     icon: FiBriefcase,
-    features: ['Company Registration', 'Trademark Services', 'Compliance'],
+    features: ['Pvt Ltd Registration', 'LLP Formation', 'ROC Compliance'],
+    color: 'blue',
+  },
+  {
+    title: 'Accounting & Bookkeeping',
+    description: 'Professional accounting services, bookkeeping, payroll management, and financial reporting.',
+    icon: FiTrendingUp,
+    features: ['Monthly Accounting', 'Payroll Services', 'Financial Reports'],
     color: 'purple',
   },
   {
-    title: 'Specialized Services',
-    description: 'Virtual CFO services, CMA data projections, and expert opinions on tax matters.',
+    title: 'Business Advisory',
+    description: 'Strategic business consulting, loan assistance, trademark registration, and virtual CFO services.',
     icon: FiSettings,
-    features: ['Virtual CFO', 'CMA Data', 'Tax Opinions'],
+    features: ['Business Loans', 'Trademark Filing', 'Virtual CFO'],
     color: 'orange',
   },
 ];
@@ -82,11 +82,11 @@ export default function ServiceCategory() {
               fontWeight="800"
               letterSpacing="tight"
             >
-              Comprehensive Financial Solutions
+              Complete Business Solutions for India
             </Heading>
             <Text fontSize={{ base: 'lg', md: 'xl' }} color="text.secondary" maxW="700px" lineHeight="tall">
-              From strategic advisory to compliance management, we provide end-to-end financial services 
-              that drive sustainable business growth and operational excellence.
+              From GST compliance to company registration, we provide comprehensive business services 
+              tailored for Indian entrepreneurs and growing businesses.
             </Text>
           </VStack>
         </VStack>

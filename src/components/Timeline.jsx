@@ -10,29 +10,29 @@ import {
 
 const timelineData = [
   {
-    year: '2014',
+    year: '2009',
     title: 'Company Founded',
-    description: 'Verve Solution Pty Ltd established with a vision to provide world-class financial advisory services.',
+    description: 'Verve Solution India established to serve the growing needs of Indian entrepreneurs and businesses.',
   },
   {
     year: '2017',
-    title: 'International Expansion',
-    description: 'Extended services to international markets, helping businesses navigate global compliance requirements.',
+    title: 'GST Implementation Support',
+    description: 'Helped 500+ businesses transition smoothly to the new GST regime with expert guidance and support.',
   },
   {
     year: '2019',
-    title: 'Digital Transformation',
-    description: 'Implemented cutting-edge technology solutions to enhance service delivery and client experience.',
+    title: 'Digital Services Launch',
+    description: 'Launched online GST filing, company registration, and digital compliance services for faster processing.',
   },
   {
     year: '2021',
-    title: 'Specialized Services Launch',
-    description: 'Introduced Virtual CFO services and advanced tax advisory solutions for growing enterprises.',
+    title: 'Pan-India Expansion',
+    description: 'Extended services to 25+ Indian cities, helping startups and SMEs with comprehensive business solutions.',
   },
   {
     year: '2024',
-    title: 'Continued Growth',
-    description: 'Serving 500+ clients globally with comprehensive financial and advisory solutions.',
+    title: 'Market Leadership',
+    description: 'Serving 1000+ Indian businesses with expert CA/CS team and comprehensive compliance solutions.',
   },
 ];
 
@@ -56,7 +56,7 @@ export default function Timeline() {
                 {item.title}
               </Heading>
             </HStack>
-            <Text color="text.secondary" fontSize="sm">
+            <Text color="text.secondary" fontSize="sm" lineHeight="tall">
               {item.description}
             </Text>
           </VStack>

@@ -10,56 +10,55 @@ import ServiceCard from '../components/ServiceCard';
 
 const servicesData = [
   {
-    title: 'Corporate Finance & Advisory',
-    description: 'Strategic financial guidance and advisory services to help businesses make informed decisions and optimize their financial performance.',
+    title: 'GST Registration & Compliance',
+    description: 'Complete GST services from registration to monthly filing, ensuring full compliance with Indian GST regulations.',
     subServices: [
-      'Business Valuation',
-      'Due Diligence',
-      'Internal Audit',
-      'Internal Financial Control (IFC)',
-      'Business Transfer Advisory',
-      'Slump Sale',
-      'Liquidation',
+      'GST Registration',
+      'Monthly GST Returns Filing',
+      'GST Annual Returns',
+      'Input Tax Credit Management',
+      'GST Audit & Assessment',
+      'E-way Bill Services',
+      'GST Refund Processing',
     ],
   },
   {
-    title: 'Accounting, Tax & Compliance',
-    description: 'Comprehensive accounting, taxation, and regulatory compliance solutions designed to keep your business compliant and financially optimized.',
+    title: 'Income Tax & TDS Services',
+    description: 'Comprehensive income tax planning, filing, and TDS compliance services for individuals and businesses.',
     subServices: [
-      'Accounting & Bookkeeping',
-      'Payroll & Labour Compliance',
-      'Goods & Services Tax (GST)',
-      'Tax Deduction at Source (TDS)',
-      'TDS on outward remittances',
-      'TDS on properties for NRIs',
-      'International Taxation',
-      'Transfer Pricing Advisory & Study',
-      'Equilization Levy',
-      'Taxation of Expatriates',
-      'Tax Residency Certificate (TRC)',
+      'Income Tax Return Filing',
+      'Tax Planning & Advisory',
+      'TDS Registration & Filing',
+      'Advance Tax Calculation',
+      'Tax Assessment Support',
+      'Income Tax Notice Handling',
+      'Tax Refund Processing',
     ],
   },
   {
-    title: 'Business Setup & Secretarial Services',
-    description: 'Complete business incorporation and ongoing secretarial services to establish and maintain your business operations efficiently.',
+    title: 'Company Registration & ROC Compliance',
+    description: 'Complete business incorporation services and ongoing ROC compliance for all types of Indian companies.',
     subServices: [
-      'Company Secretarial Services',
-      'Business Incorporation',
-      'Regulatory Registrations',
+      'Private Limited Company Registration',
+      'LLP Registration',
+      'One Person Company (OPC)',
+      'Partnership Firm Registration',
+      'ROC Annual Filing',
+      'Director KYC & DIN',
+      'Share Capital Management',
+    ],
+  },
+  {
+    title: 'Business Advisory & Support',
+    description: 'Strategic business consulting, loan assistance, and specialized services for growing Indian businesses.',
+    subServices: [
+      'Business Loan Assistance',
       'Trademark Registration',
-      'Startup Registration',
-      'LLP Registration Services',
-      'Entry India Strategies',
-    ],
-  },
-  {
-    title: 'Specialized Services',
-    description: 'Advanced financial services and expert opinions tailored to meet specific business requirements and strategic objectives.',
-    subServices: [
+      'FSSAI License',
+      'Import Export Code (IEC)',
       'Virtual CFO Services',
-      'CMA Data & Projections',
-      'Opinion on Direct Tax Matters',
-      'Opinion on Indirect Tax Matters',
+      'Financial Planning',
+      'Compliance Calendar',
     ],
   },
 ];
@@ -74,8 +73,8 @@ export default function Services() {
               Our Services
             </Heading>
             <Text fontSize="lg" color="text.secondary" maxW="800px" lineHeight="tall">
-              Comprehensive financial and advisory services designed to drive your business forward. 
-              We provide world-class solutions across corporate finance, taxation, compliance, and strategic advisory.
+              Complete business solutions tailored for Indian entrepreneurs and growing companies. 
+              We provide expert GST compliance, company registration, taxation, and business advisory services.
             </Text>
           </VStack>
           

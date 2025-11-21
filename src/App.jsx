@@ -17,7 +17,7 @@ function App() {
   return (
     <ChakraProvider theme={theme}>
       <Router>
-        <Box minH="100vh" display="flex" flexDirection="column">
+        <Box display="flex" flexDirection="column">
           <NavBar />
           <Box flex="1">
             <Suspense fallback={<LoadingSpinner message="Loading page..." />}>

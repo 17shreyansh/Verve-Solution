@@ -31,15 +31,18 @@ const NavLink = ({ children, path }) => {
     <Link
       as={RouterLink}
       to={path}
-      px={2}
+      px={{ base: 0, md: 2 }}
       py={1}
       rounded={'md'}
       color={isActive ? 'primary.500' : 'text.primary'}
       fontWeight={isActive ? 'semibold' : 'normal'}
+      fontSize={{ base: 'md', md: 'sm' }}
       _hover={{
         textDecoration: 'none',
         color: 'primary.500',
       }}
+      display="block"
+      w="full"
     >
       {children}
     </Link>
@@ -72,14 +75,14 @@ export default function NavBar() {
       borderColor="border.light"
     >
       <Container maxW="7xl">
-        <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
-        <HStack spacing={8} alignItems={'center'}>
+        <Flex h={{ base: 14, md: 16 }} alignItems={'center'} justifyContent={'space-between'}>
+        <HStack spacing={{ base: 4, md: 8 }} alignItems={'center'}>
           <Box as={RouterLink} to="/" _hover={{ opacity: 0.8 }}>
             <Box
               as="img"
               src={logoWithTitle}
               alt="Verve Solution Logo"
-              h={12}
+              h={{ base: 10, md: 12 }}
             />
           </Box>
           <HStack as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }}>
@@ -91,12 +94,12 @@ export default function NavBar() {
           </HStack>
         </HStack>
         <Flex alignItems={'center'}>
-          <HStack spacing={3} display={{ base: 'none', md: 'flex' }}>
+          <HStack spacing={{ base: 2, md: 3 }} display={{ base: 'none', md: 'flex' }}>
             <Button
               as={RouterLink}
               to="/services"
               variant="ghost"
-              size="sm"
+              size={{ base: "xs", md: "sm" }}
             >
               Our Services
             </Button>
@@ -104,38 +107,52 @@ export default function NavBar() {
               as={RouterLink}
               to="/contact"
               variant="solid"
-              size="sm"
+              size={{ base: "xs", md: "sm" }}
             >
               Get Consultation
             </Button>
           </HStack>
           <IconButton
-            size={'md'}
+            size={{ base: 'sm', md: 'md' }}
             icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
             aria-label={'Open Menu'}
             display={{ md: 'none' }}
             onClick={isOpen ? onClose : onOpen}
+            variant="ghost"
           />
         </Flex>
         </Flex>
       </Container>
 
       <Collapse in={isOpen} animateOpacity>
-        <Container maxW="7xl">
-          <Box pb={4} display={{ md: 'none' }}>
-            <Stack as={'nav'} spacing={4}>
-              {Links.map((link) => (
-                <NavLink key={link.name} path={link.path}>
+        <Box 
+          pb={4} 
+          pt={2} 
+          display={{ md: 'none' }} 
+          bg="white" 
+          borderTop="1px solid" 
+          borderColor="border.light"
+          w="100vw"
+          ml="calc(-50vw + 50%)"
+          px={4}
+        >
+          <Stack as={'nav'} spacing={3}>
+            {Links.map((link) => (
+              <Box key={link.name} py={2} px={4} borderRadius="md" _hover={{ bg: "gray.50" }}>
+                <NavLink path={link.path}>
                   {link.name}
                 </NavLink>
-              ))}
-              <HStack spacing={3}>
+              </Box>
+            ))}
+            <Box pt={3} borderTop="1px solid" borderColor="border.light">
+              <Stack spacing={3}>
                 <Button
                   as={RouterLink}
                   to="/services"
                   variant="ghost"
-                  size="sm"
-                  width="fit-content"
+                  size="md"
+                  width="full"
+                  justifyContent="flex-start"
                 >
                   Our Services
                 </Button>
@@ -143,15 +160,15 @@ export default function NavBar() {
                   as={RouterLink}
                   to="/contact"
                   variant="solid"
-                  size="sm"
-                  width="fit-content"
+                  size="md"
+                  width="full"
                 >
                   Get Consultation
                 </Button>
-              </HStack>
-            </Stack>
-          </Box>
-        </Container>
+              </Stack>
+            </Box>
+          </Stack>
+        </Box>
       </Collapse>
     </Box>
   );

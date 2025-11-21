@@ -14,24 +14,24 @@ import Timeline from '../components/Timeline';
 
 const teamMembers = [
   {
-    name: 'David Thompson',
+    name: 'CA Rajesh Gupta',
     position: 'Managing Director',
-    description: 'Over 15 years of experience in corporate finance and international taxation.',
+    description: 'Chartered Accountant with 18+ years experience in Indian taxation and GST compliance.',
   },
   {
-    name: 'Sarah Mitchell',
-    position: 'Head of Advisory Services',
-    description: 'Specialist in business valuation and strategic financial planning.',
+    name: 'CS Priya Sharma',
+    position: 'Head of Compliance',
+    description: 'Company Secretary specializing in ROC compliance and corporate law matters.',
   },
   {
-    name: 'James Wilson',
+    name: 'CA Amit Kumar',
     position: 'Senior Tax Consultant',
-    description: 'Expert in international tax compliance and transfer pricing.',
+    description: 'Expert in GST, income tax, and TDS compliance for Indian businesses.',
   },
   {
-    name: 'Lisa Chen',
+    name: 'Neha Patel',
     position: 'Director of Operations',
-    description: 'Focused on operational excellence and client service delivery.',
+    description: 'MBA with focus on business operations and client relationship management.',
   },
 ];
 
@@ -43,11 +43,11 @@ export default function About() {
           {/* Header */}
           <VStack spacing={6} textAlign="center">
             <Heading fontSize={{ base: '3xl', md: '4xl' }} color="text.primary">
-              About Verve Solution
+              About Verve Solution India
             </Heading>
             <Text fontSize="lg" color="text.secondary" maxW="800px" lineHeight="tall">
-              A leading global consulting firm dedicated to transforming businesses through 
-              financial precision, strategic intelligence, and unwavering commitment to excellence.
+              India's trusted business services partner dedicated to simplifying compliance, 
+              taxation, and business registration for entrepreneurs and growing companies.
             </Text>
           </VStack>
           
@@ -58,15 +58,14 @@ export default function About() {
                 Who We Are
               </Heading>
               <Text color="text.secondary" lineHeight="tall">
-                Verve Solution Pty Ltd is a premier financial advisory and consulting firm established 
-                to serve the evolving needs of businesses in an increasingly complex global marketplace. 
-                We combine deep industry expertise with innovative solutions to deliver exceptional value to our clients.
+                Verve Solution India is a leading business services firm established to serve the growing 
+                needs of Indian entrepreneurs and businesses. We specialize in GST compliance, company 
+                registration, taxation, and comprehensive business advisory services.
               </Text>
               <Text color="text.secondary" lineHeight="tall">
-                Our multidisciplinary team of professionals brings together decades of experience across 
-                corporate finance, taxation, compliance, and strategic advisory services. We pride ourselves 
-                on our ability to understand each client's unique challenges and provide tailored solutions 
-                that drive sustainable growth.
+                Our team of qualified Chartered Accountants and Company Secretaries brings together 
+                extensive experience in Indian business regulations, tax laws, and compliance requirements. 
+                We pride ourselves on making complex Indian business processes simple and accessible.
               </Text>
             </VStack>
             
@@ -97,10 +96,9 @@ export default function About() {
                     Our Mission
                   </Heading>
                   <Text color="text.secondary" lineHeight="tall">
-                    Transforming businesses through clarity, compliance and strategic intelligence. 
-                    We empower our clients to navigate complex financial landscapes with confidence, 
-                    ensuring they achieve their strategic objectives while maintaining the highest 
-                    standards of compliance and governance.
+                    Simplifying Indian business compliance and empowering entrepreneurs to focus on growth. 
+                    We help businesses navigate GST, taxation, and regulatory requirements with confidence, 
+                    ensuring full compliance while supporting their business objectives.
                   </Text>
                 </VStack>
               </CardBody>
@@ -113,10 +111,9 @@ export default function About() {
                     Our Vision
                   </Heading>
                   <Text color="text.secondary" lineHeight="tall">
-                    To be the globally recognized leader in financial advisory services, known for our 
-                    unwavering commitment to excellence, innovation, and client success. We envision a 
-                    future where businesses of all sizes can access world-class financial expertise 
-                    to unlock their full potential.
+                    To be India's most trusted business services partner, known for our expertise in 
+                    compliance, taxation, and business registration. We envision empowering every Indian 
+                    entrepreneur with accessible, reliable, and expert business services to achieve their dreams.
                   </Text>
                 </VStack>
               </CardBody>

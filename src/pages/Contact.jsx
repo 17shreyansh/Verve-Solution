@@ -18,22 +18,22 @@ const contactInfo = [
   {
     icon: FiMail,
     title: 'Email Us',
-    details: ['info@vervesolution.com.au', 'support@vervesolution.com.au'],
+    details: ['info@vervesolution.in', 'support@vervesolution.in'],
   },
   {
     icon: FiPhone,
     title: 'Call Us',
-    details: ['+61 (0) 2 1234 5678', '+61 (0) 2 1234 5679'],
+    details: ['+91 98765 43210', '+91 98765 43211'],
   },
   {
     icon: FiMapPin,
     title: 'Visit Us',
-    details: ['Level 10, 123 Collins Street', 'Melbourne, VIC 3000, Australia'],
+    details: ['Office No. 301, Business Hub', 'Mumbai, Maharashtra 400001, India'],
   },
   {
     icon: FiClock,
     title: 'Business Hours',
-    details: ['Monday - Friday: 9:00 AM - 6:00 PM', 'Saturday: 9:00 AM - 1:00 PM'],
+    details: ['Monday - Friday: 10:00 AM - 7:00 PM', 'Saturday: 10:00 AM - 2:00 PM'],
   },
 ];
 
@@ -48,8 +48,8 @@ export default function Contact() {
               Contact Us
             </Heading>
             <Text fontSize="lg" color="text.secondary" maxW="800px" lineHeight="tall">
-              Ready to transform your business? Get in touch with our expert team to discuss 
-              how we can help you achieve your financial and strategic objectives.
+              Ready to start or grow your business in India? Get in touch with our expert team 
+              to discuss GST registration, company formation, and all your business compliance needs.
             </Text>
           </VStack>
           
@@ -115,17 +115,17 @@ export default function Contact() {
                       Office Location
                     </Text>
                     <Text fontSize="sm" color="text.secondary">
-                      Our office is conveniently located in the heart of Melbourne's business district, 
-                      easily accessible by public transport and with nearby parking facilities.
+                      Our office is strategically located in Mumbai's business district, 
+                      easily accessible by local trains and with convenient parking facilities.
                     </Text>
                     <VStack align="start" spacing={1}>
                       <Text fontSize="sm" color="text.primary" fontWeight="semibold">
                         Address:
                       </Text>
                       <Text fontSize="sm" color="text.secondary">
-                        Level 10, 123 Collins Street<br />
-                        Melbourne, VIC 3000<br />
-                        Australia
+                        Office No. 301, Business Hub<br />
+                        Mumbai, Maharashtra 400001<br />
+                        India
                       </Text>
                     </VStack>
                   </VStack>
@@ -142,9 +142,9 @@ export default function Contact() {
                   Ready to Get Started?
                 </Heading>
                 <Text color="text.secondary" maxW="600px" lineHeight="tall">
-                  Whether you're looking for strategic financial advice, need help with compliance, 
-                  or want to explore growth opportunities, our team is here to help. Contact us today 
-                  to schedule a consultation and discover how Verve Solution can transform your business.
+                  Whether you need GST registration, company incorporation, tax filing, or business advisory 
+                  services, our expert team is here to help. Contact us today to schedule a free consultation 
+                  and discover how Verve Solution can simplify your business compliance.
                 </Text>
                 <HStack spacing={8} justify="center" flexWrap="wrap">
                   <VStack spacing={1}>
@@ -168,7 +168,7 @@ export default function Contact() {
                       Languages
                     </Text>
                     <Text fontSize="sm" color="text.secondary">
-                      English, Mandarin
+                      Hindi, English, Gujarati
                     </Text>
                   </VStack>
                 </HStack>
