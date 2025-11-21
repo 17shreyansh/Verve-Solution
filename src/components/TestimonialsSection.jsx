@@ -20,20 +20,20 @@ import { Link as RouterLink } from 'react-router-dom';
 const testimonials = [
   {
     name: 'Rajesh Kumar',
-    company: 'TechStart India Pvt Ltd',
-    testimonial: 'Verve Solution made our GST registration and compliance effortless. Their team handled everything from company registration to monthly GST filing perfectly.',
+    company: 'TechStart Solutions',
+    testimonial: 'Verve Solution helped us register our startup quickly and at an affordable price. Their team guided us through GST registration step by step.',
     rating: 5,
   },
   {
     name: 'Priya Sharma',
-    company: 'Digital Marketing Solutions',
-    testimonial: 'Excellent service for our startup registration and accounting needs. The team is very knowledgeable about Indian tax laws and ROC compliance.',
+    company: 'Creative Design Studio',
+    testimonial: 'Great service for new businesses! They made company registration simple and explained everything clearly. Very helpful for first-time entrepreneurs.',
     rating: 5,
   },
   {
     name: 'Amit Patel',
-    company: 'Manufacturing Hub Ltd',
-    testimonial: 'Professional and reliable service. Verve Solution has been our trusted partner for all GST, income tax, and business advisory needs.',
+    company: 'Local Trading Co.',
+    testimonial: 'Affordable and reliable service. The team is always available to answer questions and help with our basic accounting and tax needs.',
     rating: 5,
   },
 ];
@@ -94,7 +94,7 @@ export default function TestimonialsSection() {
               What Our Clients Say
             </Heading>
             <Text fontSize={{ base: 'md', md: 'lg' }} color="text.secondary" lineHeight="relaxed">
-              See how we've helped Indian businesses succeed
+              See how we've helped new entrepreneurs get started
             </Text>
           </VStack>
           

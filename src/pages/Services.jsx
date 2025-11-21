@@ -73,8 +73,8 @@ export default function Services() {
               Our Services
             </Heading>
             <Text fontSize="lg" color="text.secondary" maxW="800px" lineHeight="tall">
-              Complete business solutions tailored for Indian entrepreneurs and growing companies. 
-              We provide expert GST compliance, company registration, taxation, and business advisory services.
+              Affordable and reliable business solutions designed for startups and small businesses. 
+              We provide simple GST registration, company formation, and basic compliance services at competitive rates.
             </Text>
           </VStack>
           

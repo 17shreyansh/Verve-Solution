@@ -14,24 +14,24 @@ import Timeline from '../components/Timeline';
 
 const teamMembers = [
   {
-    name: 'CA Rajesh Gupta',
-    position: 'Managing Director',
-    description: 'Chartered Accountant with 18+ years experience in Indian taxation and GST compliance.',
+    name: 'Rajesh Gupta',
+    position: 'Founder & Director',
+    description: 'Commerce graduate with 5+ years experience in business registration and GST compliance.',
   },
   {
-    name: 'CS Priya Sharma',
-    position: 'Head of Compliance',
-    description: 'Company Secretary specializing in ROC compliance and corporate law matters.',
+    name: 'Priya Sharma',
+    position: 'Compliance Manager',
+    description: 'Experienced professional specializing in company registration and ROC filing services.',
   },
   {
-    name: 'CA Amit Kumar',
-    position: 'Senior Tax Consultant',
-    description: 'Expert in GST, income tax, and TDS compliance for Indian businesses.',
+    name: 'Amit Kumar',
+    position: 'Tax Consultant',
+    description: 'Qualified professional helping startups with GST registration and basic tax compliance.',
   },
   {
     name: 'Neha Patel',
-    position: 'Director of Operations',
-    description: 'MBA with focus on business operations and client relationship management.',
+    position: 'Client Relations',
+    description: 'Dedicated to providing personalized support and guidance to new entrepreneurs.',
   },
 ];
 
@@ -46,8 +46,8 @@ export default function About() {
               About Verve Solution India
             </Heading>
             <Text fontSize="lg" color="text.secondary" maxW="800px" lineHeight="tall">
-              India's trusted business services partner dedicated to simplifying compliance, 
-              taxation, and business registration for entrepreneurs and growing companies.
+              A growing business services firm dedicated to helping new entrepreneurs start and 
+              manage their businesses with affordable and reliable compliance solutions.
             </Text>
           </VStack>
           
@@ -58,14 +58,14 @@ export default function About() {
                 Who We Are
               </Heading>
               <Text color="text.secondary" lineHeight="tall">
-                Verve Solution India is a leading business services firm established to serve the growing 
-                needs of Indian entrepreneurs and businesses. We specialize in GST compliance, company 
-                registration, taxation, and comprehensive business advisory services.
+                Verve Solution India is a dedicated business services firm established to help new entrepreneurs 
+                navigate the complexities of starting and running a business in India. We focus on making 
+                business registration, GST compliance, and basic accounting simple and affordable.
               </Text>
               <Text color="text.secondary" lineHeight="tall">
-                Our team of qualified Chartered Accountants and Company Secretaries brings together 
-                extensive experience in Indian business regulations, tax laws, and compliance requirements. 
-                We pride ourselves on making complex Indian business processes simple and accessible.
+                Our team of experienced professionals is committed to providing personalized support to startups 
+                and small businesses. We understand the challenges faced by new entrepreneurs and strive to 
+                make business compliance as straightforward as possible.
               </Text>
             </VStack>
             
@@ -96,9 +96,9 @@ export default function About() {
                     Our Mission
                   </Heading>
                   <Text color="text.secondary" lineHeight="tall">
-                    Simplifying Indian business compliance and empowering entrepreneurs to focus on growth. 
-                    We help businesses navigate GST, taxation, and regulatory requirements with confidence, 
-                    ensuring full compliance while supporting their business objectives.
+                    Making business registration and compliance accessible and affordable for new entrepreneurs. 
+                    We guide startups through the essential steps of business formation, GST registration, 
+                    and basic compliance requirements with personalized support.
                   </Text>
                 </VStack>
               </CardBody>
@@ -111,9 +111,9 @@ export default function About() {
                     Our Vision
                   </Heading>
                   <Text color="text.secondary" lineHeight="tall">
-                    To be India's most trusted business services partner, known for our expertise in 
-                    compliance, taxation, and business registration. We envision empowering every Indian 
-                    entrepreneur with accessible, reliable, and expert business services to achieve their dreams.
+                    To become a trusted partner for new entrepreneurs across India, known for our affordable, 
+                    reliable, and personalized business services. We aim to help every startup get the right 
+                    foundation for their business journey.
                   </Text>
                 </VStack>
               </CardBody>
@@ -127,7 +127,7 @@ export default function About() {
                 Leadership Team
               </Heading>
               <Text fontSize="lg" color="text.secondary" maxW="600px">
-                Meet the experienced professionals who lead our commitment to excellence
+                Meet the dedicated team committed to supporting new entrepreneurs
               </Text>
             </VStack>
             
@@ -162,7 +162,7 @@ export default function About() {
                 Our Journey
               </Heading>
               <Text fontSize="lg" color="text.secondary" maxW="600px">
-                A decade of growth, innovation, and unwavering commitment to client success
+                Our journey of growth and commitment to helping new entrepreneurs succeed
               </Text>
             </VStack>
             

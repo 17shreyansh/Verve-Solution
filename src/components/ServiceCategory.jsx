@@ -82,11 +82,11 @@ export default function ServiceCategory() {
               fontWeight="800"
               letterSpacing="tight"
             >
-              Complete Business Solutions for India
+  Affordable Business Solutions for Startups
             </Heading>
             <Text fontSize={{ base: 'lg', md: 'xl' }} color="text.secondary" maxW="700px" lineHeight="tall">
-              From GST compliance to company registration, we provide comprehensive business services 
-              tailored for Indian entrepreneurs and growing businesses.
+              From GST registration to company formation, we provide affordable and reliable business services 
+              designed specifically for startups and small businesses in India.
             </Text>
           </VStack>
         </VStack>

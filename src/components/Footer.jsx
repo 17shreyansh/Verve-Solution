@@ -31,10 +31,10 @@ export default function Footer() {
               </Text>
             </HStack>
             <Text fontSize={{ base: 'xs', md: 'sm' }} color="gray.300" fontWeight="medium">
-              Your Trusted Business Partner in India
+              Growing with New Entrepreneurs
             </Text>
             <Text fontSize={{ base: 'xs', md: 'sm' }} color="gray.300" maxW={{ base: '280px', md: '320px' }} lineHeight="relaxed">
-              Simplifying GST compliance, company registration, and accounting services for Indian businesses.
+              Making business registration and compliance simple and affordable for startups and small businesses.
             </Text>
           </VStack>
           

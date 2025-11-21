@@ -10,29 +10,29 @@ import {
 
 const timelineData = [
   {
-    year: '2009',
+    year: '2022',
     title: 'Company Founded',
-    description: 'Verve Solution India established to serve the growing needs of Indian entrepreneurs and businesses.',
+    description: 'Verve Solution India established with a mission to help new entrepreneurs start their businesses easily.',
   },
   {
-    year: '2017',
-    title: 'GST Implementation Support',
-    description: 'Helped 500+ businesses transition smoothly to the new GST regime with expert guidance and support.',
+    year: '2022',
+    title: 'First Clients',
+    description: 'Successfully helped our first 10 clients with company registration and GST compliance services.',
   },
   {
-    year: '2019',
-    title: 'Digital Services Launch',
-    description: 'Launched online GST filing, company registration, and digital compliance services for faster processing.',
+    year: '2023',
+    title: 'Service Expansion',
+    description: 'Added income tax filing and basic accounting services to better support growing startups.',
   },
   {
-    year: '2021',
-    title: 'Pan-India Expansion',
-    description: 'Extended services to 25+ Indian cities, helping startups and SMEs with comprehensive business solutions.',
+    year: '2023',
+    title: 'Growing Client Base',
+    description: 'Reached 30+ satisfied clients across Mumbai and nearby cities with personalized service.',
   },
   {
     year: '2024',
-    title: 'Market Leadership',
-    description: 'Serving 1000+ Indian businesses with expert CA/CS team and comprehensive compliance solutions.',
+    title: 'Continued Growth',
+    description: 'Now serving 50+ happy clients with affordable and reliable business compliance solutions.',
   },
 ];
 

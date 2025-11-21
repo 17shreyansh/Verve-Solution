@@ -48,8 +48,8 @@ export default function Contact() {
               Contact Us
             </Heading>
             <Text fontSize="lg" color="text.secondary" maxW="800px" lineHeight="tall">
-              Ready to start or grow your business in India? Get in touch with our expert team 
-              to discuss GST registration, company formation, and all your business compliance needs.
+              Ready to start your business journey in India? Get in touch with our friendly team 
+              to discuss affordable GST registration, company formation, and basic compliance services.
             </Text>
           </VStack>
           
@@ -142,9 +142,9 @@ export default function Contact() {
                   Ready to Get Started?
                 </Heading>
                 <Text color="text.secondary" maxW="600px" lineHeight="tall">
-                  Whether you need GST registration, company incorporation, tax filing, or business advisory 
-                  services, our expert team is here to help. Contact us today to schedule a free consultation 
-                  and discover how Verve Solution can simplify your business compliance.
+                  Whether you're starting your first business or need help with GST registration and basic compliance, 
+                  our dedicated team is here to guide you. Contact us today for a free consultation and discover 
+                  how we can make your business journey smoother.
                 </Text>
                 <HStack spacing={8} justify="center" flexWrap="wrap">
                   <VStack spacing={1}>

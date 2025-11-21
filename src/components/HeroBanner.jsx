@@ -52,7 +52,7 @@ export default function HeroBanner() {
                 borderColor="primary.200"
               >
                 <Icon as={FiAward} mr={1} />
-                Trusted by 1000+ Companies in India
+Growing with 50+ Happy Clients
               </Badge>
             </HStack>
             
@@ -64,15 +64,15 @@ export default function HeroBanner() {
                 lineHeight="shorter"
                 letterSpacing="tight"
               >
-                India's Leading{' '}
+                Your Trusted{' '}
                 <Text 
                   as="span" 
                   bgGradient="linear(to-r, primary.500, primary.700)"
                   bgClip="text"
                 >
-                  Financial Advisory
+                  Business Partner
                 </Text>{' '}
-                & Compliance Partner
+                for Growth & Compliance
               </Heading>
               
               <Text
@@ -82,8 +82,8 @@ export default function HeroBanner() {
                 lineHeight="tall"
                 fontWeight="400"
               >
-                Verve Solution empowers Indian businesses with comprehensive GST compliance, 
-                income tax services, company registration, and strategic financial advisory.
+                Verve Solution helps new entrepreneurs and growing businesses with affordable GST registration, 
+                company formation, tax filing, and expert business guidance.
               </Text>
               
               {/* Trust Indicators */}
@@ -91,16 +91,16 @@ export default function HeroBanner() {
                 <VStack spacing={1}>
                   <HStack>
                     <Icon as={FiUsers} color="primary.500" />
-                    <Text fontSize="2xl" fontWeight="bold" color="text.primary">1000+</Text>
+                    <Text fontSize="2xl" fontWeight="bold" color="text.primary">50+</Text>
                   </HStack>
-                  <Text fontSize="sm" color="text.secondary">Indian Clients</Text>
+                  <Text fontSize="sm" color="text.secondary">Happy Clients</Text>
                 </VStack>
                 <VStack spacing={1}>
                   <HStack>
                     <Icon as={FiGlobe} color="primary.500" />
-                    <Text fontSize="2xl" fontWeight="bold" color="text.primary">15+</Text>
+                    <Text fontSize="2xl" fontWeight="bold" color="text.primary">2+</Text>
                   </HStack>
-                  <Text fontSize="sm" color="text.secondary">Years in India</Text>
+                  <Text fontSize="sm" color="text.secondary">Years Experience</Text>
                 </VStack>
                 <VStack spacing={1}>
                   <HStack>

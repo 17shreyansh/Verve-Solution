@@ -52,11 +52,11 @@ export default function WhyChooseUs() {
               fontWeight="800"
               letterSpacing="tight"
             >
-              India's Most Trusted Business Partner
+  Your Reliable Business Partner
             </Heading>
             <Text fontSize={{ base: 'lg', md: 'xl' }} color="text.secondary" maxW="700px" lineHeight="tall">
-              We simplify complex Indian business regulations and provide expert guidance for GST, 
-              taxation, and company compliance. Our success stories speak for themselves.
+              We make business registration and compliance simple and affordable for startups. 
+              Our growing client base trusts us for reliable and personalized service.
             </Text>
           </VStack>
           
@@ -68,10 +68,10 @@ export default function WhyChooseUs() {
                     <Icon as={FiClock} boxSize={{ base: 6, md: 8 }} color="primary.500" />
                   </Box>
                   <VStack spacing={1}>
-                    <AnimatedCounter end={15} suffix="+" />
-                    <Text color="text.primary" fontSize={{ base: "md", md: "lg" }} fontWeight="semibold">Years in India</Text>
+                    <AnimatedCounter end={2} suffix="+" />
+                    <Text color="text.primary" fontSize={{ base: "md", md: "lg" }} fontWeight="semibold">Years Experience</Text>
                     <Text fontSize="sm" color="text.secondary">
-                      Serving Indian businesses
+                      Growing with clients
                     </Text>
                   </VStack>
                 </VStack>
@@ -85,10 +85,10 @@ export default function WhyChooseUs() {
                     <Icon as={FiUsers} boxSize={{ base: 6, md: 8 }} color="blue.500" />
                   </Box>
                   <VStack spacing={1}>
-                    <AnimatedCounter end={1000} suffix="+" />
-                    <Text color="text.primary" fontSize={{ base: "md", md: "lg" }} fontWeight="semibold">Indian Clients</Text>
+                    <AnimatedCounter end={50} suffix="+" />
+                    <Text color="text.primary" fontSize={{ base: "md", md: "lg" }} fontWeight="semibold">Happy Clients</Text>
                     <Text fontSize="sm" color="text.secondary">
-                      Across 25+ cities
+                      Across 5+ cities
                     </Text>
                   </VStack>
                 </VStack>
@@ -102,7 +102,7 @@ export default function WhyChooseUs() {
                     <Icon as={FiTrendingUp} boxSize={{ base: 6, md: 8 }} color="green.500" />
                   </Box>
                   <VStack spacing={1}>
-                    <AnimatedCounter end={98} suffix="%" />
+                    <AnimatedCounter end={95} suffix="%" />
                     <Text color="text.primary" fontSize={{ base: "md", md: "lg" }} fontWeight="semibold">Success Rate</Text>
                     <Text fontSize="sm" color="text.secondary">
                       Client satisfaction
@@ -133,17 +133,17 @@ export default function WhyChooseUs() {
           <SimpleGrid columns={{ base: 1, md: 3 }} spacing={8} w="full" pt={8}>
             <VStack spacing={4} textAlign="center">
               <Icon as={FiAward} boxSize={12} color="primary.500" />
-              <Heading size="md" color="text.primary">CA & CS Experts</Heading>
+              <Heading size="md" color="text.primary">Qualified Team</Heading>
               <Text fontSize="sm" color="text.secondary" textAlign="center">
-                Qualified Chartered Accountants and Company Secretaries with deep Indian tax knowledge
+                Experienced professionals with strong knowledge of Indian business regulations and compliance
               </Text>
             </VStack>
             
             <VStack spacing={4} textAlign="center">
               <Icon as={FiGlobe} boxSize={12} color="primary.500" />
-              <Heading size="md" color="text.primary">Indian Compliance</Heading>
+              <Heading size="md" color="text.primary">Startup Focused</Heading>
               <Text fontSize="sm" color="text.secondary" textAlign="center">
-                Expert knowledge of GST, Income Tax, ROC compliance, and Indian business regulations
+                Specialized in helping new businesses with GST registration, company formation, and basic compliance
               </Text>
             </VStack>
             

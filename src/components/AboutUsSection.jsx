@@ -41,9 +41,9 @@ export default function AboutUsSection() {
                 letterSpacing="tight"
                 lineHeight="shorter"
               >
-                Empowering Indian Businesses Through{' '}
+                Supporting New Entrepreneurs Through{' '}
                 <Text as="span" bgGradient="linear(to-r, primary.500, primary.700)" bgClip="text">
-                  Expert Compliance
+                  Reliable Service
                 </Text>
               </Heading>
             </VStack>
@@ -54,28 +54,28 @@ export default function AboutUsSection() {
                   Our Mission
                 </Text>
                 <Text color="text.secondary" lineHeight="tall">
-                  Simplifying business compliance and financial management for Indian entrepreneurs. 
-                  We help businesses navigate GST, taxation, and regulatory requirements with ease.
+                  Making business registration and compliance simple and affordable for new entrepreneurs. 
+                  We guide startups through GST registration, company formation, and tax compliance step by step.
                 </Text>
               </Box>
               
               <Text fontSize={{ base: "md", md: "lg" }} color="text.secondary" lineHeight="tall">
-                As India's trusted business services partner, we specialize in GST compliance, company registration, 
-                and comprehensive accounting solutions. Our expert team helps Indian businesses grow with confidence.
+                As a growing business services firm, we specialize in helping startups with GST registration, 
+                company incorporation, and basic accounting needs. Our dedicated team provides personalized support to new entrepreneurs.
               </Text>
               
               <SimpleGrid columns={{ base: 3, md: 3 }} spacing={{ base: 4, md: 8 }} pt={4} w="full">
                 <VStack align="center" spacing={2}>
-                  <Text fontSize={{ base: "xl", md: "2xl" }} fontWeight="bold" color="primary.500">25+</Text>
-                  <Text fontSize={{ base: "xs", md: "sm" }} color="text.secondary" textAlign="center">Indian Cities</Text>
+                  <Text fontSize={{ base: "xl", md: "2xl" }} fontWeight="bold" color="primary.500">5+</Text>
+                  <Text fontSize={{ base: "xs", md: "sm" }} color="text.secondary" textAlign="center">Cities Served</Text>
                 </VStack>
                 <VStack align="center" spacing={2}>
-                  <Text fontSize={{ base: "xl", md: "2xl" }} fontWeight="bold" color="primary.500">100+</Text>
-                  <Text fontSize={{ base: "xs", md: "sm" }} color="text.secondary" textAlign="center">CA & CS Experts</Text>
+                  <Text fontSize={{ base: "xl", md: "2xl" }} fontWeight="bold" color="primary.500">10+</Text>
+                  <Text fontSize={{ base: "xs", md: "sm" }} color="text.secondary" textAlign="center">Expert Team</Text>
                 </VStack>
                 <VStack align="center" spacing={2}>
-                  <Text fontSize={{ base: "xl", md: "2xl" }} fontWeight="bold" color="primary.500">99%</Text>
-                  <Text fontSize={{ base: "xs", md: "sm" }} color="text.secondary" textAlign="center">Client Retention</Text>
+                  <Text fontSize={{ base: "xl", md: "2xl" }} fontWeight="bold" color="primary.500">95%</Text>
+                  <Text fontSize={{ base: "xs", md: "sm" }} color="text.secondary" textAlign="center">Client Satisfaction</Text>
                 </VStack>
               </SimpleGrid>
             </VStack>
