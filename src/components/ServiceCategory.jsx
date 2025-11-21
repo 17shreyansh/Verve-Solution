@@ -13,36 +13,36 @@ import {
   Button,
   Container,
 } from '@chakra-ui/react';
-import { FiTrendingUp, FiFileText, FiBriefcase, FiSettings, FiArrowRight } from 'react-icons/fi';
+import { FiTrendingUp, FiFileText, FiBriefcase, FiSettings, FiArrowRight, FiDollarSign, FiBarChart, FiUsers, FiCloud } from 'react-icons/fi';
 import { Link as RouterLink } from 'react-router-dom';
 
 const services = [
   {
-    title: 'GST & Tax Compliance',
-    description: 'Complete GST registration, filing, and compliance services along with income tax planning and filing.',
-    icon: FiFileText,
-    features: ['GST Registration & Filing', 'Income Tax Returns', 'TDS Compliance'],
+    title: 'Accounts Payable & Receivable',
+    description: 'Professional management of your business payments and collections to maintain healthy cash flow.',
+    icon: FiDollarSign,
+    features: ['Accounts Payable', 'Accounts Receivable', 'Payment Processing'],
     color: 'green',
   },
   {
-    title: 'Company Registration & ROC',
-    description: 'Private Limited, LLP, and OPC registration with complete ROC compliance and annual filings.',
-    icon: FiBriefcase,
-    features: ['Pvt Ltd Registration', 'LLP Formation', 'ROC Compliance'],
+    title: 'Bookkeeping & Expense Tracking',
+    description: 'Accurate bookkeeping and expense tracking services to keep your financial records organized.',
+    icon: FiFileText,
+    features: ['Bookkeeping', 'Expense Tracking', 'Financial Records'],
     color: 'blue',
   },
   {
-    title: 'Accounting & Bookkeeping',
-    description: 'Professional accounting services, bookkeeping, payroll management, and financial reporting.',
-    icon: FiTrendingUp,
-    features: ['Monthly Accounting', 'Payroll Services', 'Financial Reports'],
+    title: 'Payroll & BAS Services',
+    description: 'Complete payroll management and Business Activity Statement preparation for your business.',
+    icon: FiUsers,
+    features: ['Single Touch Payroll', 'Payroll Management', 'BAS Preparation'],
     color: 'purple',
   },
   {
-    title: 'Business Advisory',
-    description: 'Strategic business consulting, loan assistance, trademark registration, and virtual CFO services.',
-    icon: FiSettings,
-    features: ['Business Loans', 'Trademark Filing', 'Virtual CFO'],
+    title: 'Cash Flow & Cloud Solutions',
+    description: 'Cash flow management and cloud-based accounting solutions for modern businesses.',
+    icon: FiCloud,
+    features: ['Cash Flow Management', 'Cloud Based Solutions', 'Financial Planning'],
     color: 'orange',
   },
 ];
@@ -82,11 +82,11 @@ export default function ServiceCategory() {
               fontWeight="800"
               letterSpacing="tight"
             >
-  Affordable Business Solutions for Startups
+Professional Accounting Services
             </Heading>
             <Text fontSize={{ base: 'lg', md: 'xl' }} color="text.secondary" maxW="700px" lineHeight="tall">
-              From GST registration to company formation, we provide affordable and reliable business services 
-              designed specifically for startups and small businesses in India.
+              From bookkeeping to payroll management, we provide comprehensive accounting and financial services 
+              designed to help your business maintain accurate records and healthy cash flow.
             </Text>
           </VStack>
         </VStack>

@@ -10,55 +10,55 @@ import ServiceCard from '../components/ServiceCard';
 
 const servicesData = [
   {
-    title: 'GST Registration & Compliance',
-    description: 'Complete GST services from registration to monthly filing, ensuring full compliance with Indian GST regulations.',
+    title: 'Accounts Payable & Receivable',
+    description: 'Professional management of your business payments and collections to maintain healthy cash flow and financial stability.',
     subServices: [
-      'GST Registration',
-      'Monthly GST Returns Filing',
-      'GST Annual Returns',
-      'Input Tax Credit Management',
-      'GST Audit & Assessment',
-      'E-way Bill Services',
-      'GST Refund Processing',
+      'Accounts Payable Management',
+      'Accounts Receivable Management',
+      'Invoice Processing',
+      'Payment Processing',
+      'Vendor Management',
+      'Customer Collections',
+      'Aging Reports',
     ],
   },
   {
-    title: 'Income Tax & TDS Services',
-    description: 'Comprehensive income tax planning, filing, and TDS compliance services for individuals and businesses.',
+    title: 'Bookkeeping & Expense Tracking',
+    description: 'Accurate bookkeeping and comprehensive expense tracking services to keep your financial records organized and up-to-date.',
     subServices: [
-      'Income Tax Return Filing',
-      'Tax Planning & Advisory',
-      'TDS Registration & Filing',
-      'Advance Tax Calculation',
-      'Tax Assessment Support',
-      'Income Tax Notice Handling',
-      'Tax Refund Processing',
+      'Daily Bookkeeping',
+      'Expense Tracking',
+      'Receipt Management',
+      'Bank Reconciliation',
+      'Financial Record Keeping',
+      'Transaction Categorization',
+      'Monthly Financial Reports',
     ],
   },
   {
-    title: 'Company Registration & ROC Compliance',
-    description: 'Complete business incorporation services and ongoing ROC compliance for all types of Indian companies.',
+    title: 'Payroll & BAS Services',
+    description: 'Complete payroll management and Business Activity Statement preparation to ensure compliance and accurate reporting.',
     subServices: [
-      'Private Limited Company Registration',
-      'LLP Registration',
-      'One Person Company (OPC)',
-      'Partnership Firm Registration',
-      'ROC Annual Filing',
-      'Director KYC & DIN',
-      'Share Capital Management',
+      'Single Touch Payroll',
+      'Payroll Processing',
+      'Employee Pay Slips',
+      'BAS Preparation',
+      'Superannuation Management',
+      'PAYG Withholding',
+      'Payroll Tax Compliance',
     ],
   },
   {
-    title: 'Business Advisory & Support',
-    description: 'Strategic business consulting, loan assistance, and specialized services for growing Indian businesses.',
+    title: 'Cash Flow & Cloud Solutions',
+    description: 'Advanced cash flow management and modern cloud-based accounting solutions for efficient business operations.',
     subServices: [
-      'Business Loan Assistance',
-      'Trademark Registration',
-      'FSSAI License',
-      'Import Export Code (IEC)',
-      'Virtual CFO Services',
-      'Financial Planning',
-      'Compliance Calendar',
+      'Cash Flow Management',
+      'Cash Flow Forecasting',
+      'Cloud Based Accounting',
+      'Real-time Financial Reporting',
+      'Budget Planning',
+      'Financial Analysis',
+      'Business Performance Metrics',
     ],
   },
 ];
@@ -73,8 +73,8 @@ export default function Services() {
               Our Services
             </Heading>
             <Text fontSize="lg" color="text.secondary" maxW="800px" lineHeight="tall">
-              Affordable and reliable business solutions designed for startups and small businesses. 
-              We provide simple GST registration, company formation, and basic compliance services at competitive rates.
+              Professional accounting and bookkeeping services designed for small to medium businesses. 
+              We provide comprehensive financial management solutions to keep your business organized and compliant.
             </Text>
           </VStack>
           
