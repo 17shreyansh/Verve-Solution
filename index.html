@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="%PUBLIC_URL%/favicon.ico" />
-    <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/favicon.png" />
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png" />
+    <link rel="shortcut icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#2BB6A3" />
     <meta name="description" content="Verve Solution Pty Ltd - Your Global Partner for Corporate Finance & Advisory. Financial Precision. Global Perspective." />
@@ -31,9 +31,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     
     <title>Verve Solution Pty Ltd - Corporate Finance & Advisory</title>
+    <style>
+      html, body, #root {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <script type="module" src="/src/index.jsx"></script>
   </body>
 </html>

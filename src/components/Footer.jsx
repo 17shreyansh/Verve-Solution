@@ -14,8 +14,8 @@ import logoOnly from '../assets/logo only.png';
 
 export default function Footer() {
   return (
-    <Box bg="text.primary" color="white">
-      <Container as={Stack} maxW={'6xl'} py={10}>
+    <Box bg="text.primary" color="white" mt={0}>
+      <Container as={Stack} maxW={'6xl'} py={10} m={0}>
         <Stack direction={{ base: 'column', md: 'row' }} spacing={8}>
           <VStack align="start" spacing={4} flex={1}>
             <HStack spacing={3}>
@@ -66,16 +66,20 @@ export default function Footer() {
             <Text fontSize="sm" color="gray.300">
               Phone: +61 (0) 2 1234 5678
             </Text>
-            <Text fontSize="sm" color="gray.300">
-              Address: Level 10, 123 Collins Street<br />
-              Melbourne, VIC 3000, Australia
-            </Text>
+            <VStack align="start" spacing={1}>
+              <Text fontSize="sm" color="gray.300">
+                Address: Level 10, 123 Collins Street
+              </Text>
+              <Text fontSize="sm" color="gray.300">
+                Melbourne, VIC 3000, Australia
+              </Text>
+            </VStack>
           </VStack>
         </Stack>
         
         <Divider my={6} borderColor="gray.600" />
         
-        <HStack justify="space-between" align="center" direction={{ base: 'column', md: 'row' }}>
+        <Stack justify="space-between" align="center" direction={{ base: 'column', md: 'row' }}>
           <Text fontSize="sm" color="gray.400">
             © 2024 Verve Solution Pty Ltd. All rights reserved.
           </Text>
@@ -87,7 +91,7 @@ export default function Footer() {
               Terms of Service
             </Link>
           </HStack>
-        </HStack>
+        </Stack>
       </Container>
     </Box>
   );

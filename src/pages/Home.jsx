@@ -368,7 +368,7 @@ export default function Home() {
       </Box>
       
       {/* Testimonials */}
-      <Box py={{ base: 20, md: 28 }} bg="gray.50" position="relative">
+      <Box pt={{ base: 20, md: 28 }} pb={0} bg="gray.50" position="relative">
         <ParallaxSection speed={0.3}>
           <Box
             position="absolute"

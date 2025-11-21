@@ -164,6 +164,10 @@ const theme = extendTheme({
       '*': {
         scrollBehavior: 'smooth',
       },
+      'html, body': {
+        margin: 0,
+        padding: 0,
+      },
       body: {
         bg: 'bg.primary',
         color: 'text.primary',
