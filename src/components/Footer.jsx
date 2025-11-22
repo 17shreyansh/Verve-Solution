@@ -26,8 +26,8 @@ export default function Footer() {
                 w={{ base: 6, md: 8 }}
                 h={{ base: 6, md: 8 }}
               />
-              <Text fontSize={{ base: 'md', md: 'lg' }} fontWeight="bold">
-                Verve Solution India
+              <Text fontSize={{ base: 'md', md: 'lg' }} fontWeight="600" color="white" fontFamily="Poppins" letterSpacing="tight">
+                Verve Solution <Text as="span" fontWeight="400" fontSize={{ base: 'sm', md: 'md' }} color="gray.300">Pty Ltd</Text>
               </Text>
             </HStack>
             <Text fontSize={{ base: 'xs', md: 'sm' }} color="gray.300" fontWeight="medium">
@@ -39,7 +39,7 @@ export default function Footer() {
           </VStack>
           
           <VStack align={{ base: 'center', lg: 'start' }} spacing={3} flex={1} textAlign={{ base: 'center', lg: 'left' }}>
-            <Text fontSize={{ base: 'sm', md: 'md' }} fontWeight="semibold" mb={1}>
+            <Text fontSize={{ base: 'sm', md: 'md' }} fontWeight="semibold" mb={1} color="white">
               Quick Links
             </Text>
             <VStack spacing={2} align={{ base: 'center', lg: 'start' }}>
@@ -59,7 +59,7 @@ export default function Footer() {
           </VStack>
           
           <VStack align={{ base: 'center', lg: 'start' }} spacing={3} flex={1} textAlign={{ base: 'center', lg: 'left' }}>
-            <Text fontSize={{ base: 'sm', md: 'md' }} fontWeight="semibold" mb={1}>
+            <Text fontSize={{ base: 'sm', md: 'md' }} fontWeight="semibold" mb={1} color="white">
               Contact Info
             </Text>
             <VStack spacing={2} align={{ base: 'center', lg: 'start' }}>
@@ -80,7 +80,7 @@ export default function Footer() {
           textAlign="center"
         >
           <Text fontSize={{ base: 'xs', md: 'sm' }} color="gray.400">
-            © 2024 Verve Solution India. All rights reserved.
+            © 2024 Verve Solution Pty Ltd. All rights reserved.
           </Text>
           <HStack spacing={{ base: 6, md: 4 }} flexWrap="wrap" justify="center">
             <Link href="#" fontSize={{ base: 'xs', md: 'sm' }} color="gray.400" _hover={{ color: 'primary.300' }}>

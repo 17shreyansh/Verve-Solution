@@ -14,7 +14,7 @@ import {
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import { Link as RouterLink, useLocation } from 'react-router-dom';
-import logoWithTitle from '../assets/logo with title.png';
+import logoOnly from '../assets/logo only.png';
 
 const Links = [
   { name: 'Home', path: '/' },
@@ -77,14 +77,18 @@ export default function NavBar() {
       <Container maxW="7xl">
         <Flex h={{ base: 14, md: 16 }} alignItems={'center'} justifyContent={'space-between'}>
         <HStack spacing={{ base: 4, md: 8 }} alignItems={'center'}>
-          <Box as={RouterLink} to="/" _hover={{ opacity: 0.8 }}>
+          <HStack as={RouterLink} to="/" _hover={{ opacity: 0.8 }} spacing={3}>
             <Box
               as="img"
-              src={logoWithTitle}
+              src={logoOnly}
               alt="Verve Solution Logo"
-              h={{ base: 10, md: 12 }}
+              h={{ base: 8, md: 10 }}
+              w={{ base: 8, md: 10 }}
             />
-          </Box>
+            <Text fontSize={{ base: 'lg', md: 'xl' }} fontWeight="600" color="text.primary" fontFamily="Poppins" letterSpacing="tight">
+              Verve Solution <Text as="span" fontWeight="400" fontSize={{ base: 'sm', md: 'md' }} color="text.secondary">Pvt Ltd</Text>
+            </Text>
+          </HStack>
           <HStack as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }}>
             {Links.map((link) => (
               <NavLink key={link.name} path={link.path}>
