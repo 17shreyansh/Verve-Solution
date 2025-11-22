@@ -60,7 +60,7 @@ export default function WhyChooseUs() {
             </Text>
           </VStack>
           
-          <SimpleGrid columns={{ base: 1, sm: 2, md: 4 }} spacing={{ base: 4, md: 8 }} w="full">
+          <SimpleGrid columns={{ base: 1, sm: 2, md: 3 }} spacing={{ base: 4, md: 8 }} w="full">
             <Card variant="elevated" bg="white" textAlign="center">
               <CardBody p={{ base: 6, md: 8 }}>
                 <VStack spacing={4}>
@@ -112,22 +112,7 @@ export default function WhyChooseUs() {
               </CardBody>
             </Card>
             
-            <Card variant="elevated" bg="white" textAlign="center">
-              <CardBody p={{ base: 6, md: 8 }}>
-                <VStack spacing={4}>
-                  <Box p={{ base: 3, md: 4 }} bg="purple.50" borderRadius="full">
-                    <Icon as={FiShield} boxSize={{ base: 6, md: 8 }} color="purple.500" />
-                  </Box>
-                  <VStack spacing={1}>
-                    <Text fontSize={{ base: "2xl", md: "3xl" }} fontWeight="bold" color="purple.500">24/7</Text>
-                    <Text color="text.primary" fontSize={{ base: "md", md: "lg" }} fontWeight="semibold">Support</Text>
-                    <Text fontSize="sm" color="text.secondary">
-                      Always available
-                    </Text>
-                  </VStack>
-                </VStack>
-              </CardBody>
-            </Card>
+
           </SimpleGrid>
           
           <SimpleGrid columns={{ base: 1, md: 3 }} spacing={8} w="full" pt={8}>

@@ -14,7 +14,7 @@ import { FiDollarSign, FiFileText, FiUsers, FiCloud, FiBarChart, FiCreditCard, F
 
 const showcaseServices = [
   {
-    title: 'Accounts Payable & Receivable',
+    title: 'Taxation Services',
     icon: FiDollarSign,
     color: 'green',
   },

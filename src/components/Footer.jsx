@@ -66,17 +66,6 @@ export default function Footer() {
               <Text fontSize={{ base: 'xs', md: 'sm' }} color="gray.300">
                 info@vervesolution.in
               </Text>
-              <Text fontSize={{ base: 'xs', md: 'sm' }} color="gray.300">
-                +91 98765 43210
-              </Text>
-              <VStack align={{ base: 'center', lg: 'start' }} spacing={1}>
-                <Text fontSize={{ base: 'xs', md: 'sm' }} color="gray.300">
-                  Office No. 301, Business Hub
-                </Text>
-                <Text fontSize={{ base: 'xs', md: 'sm' }} color="gray.300">
-                  Mumbai, Maharashtra 400001, India
-                </Text>
-              </VStack>
             </VStack>
           </VStack>
         </Stack>

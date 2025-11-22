@@ -10,16 +10,15 @@ import ServiceCard from '../components/ServiceCard';
 
 const servicesData = [
   {
-    title: 'Accounts Payable & Receivable',
-    description: 'Professional management of your business payments and collections to maintain healthy cash flow and financial stability.',
+    title: 'Taxation Services',
+    description: 'Comprehensive tax preparation and compliance services for individuals, businesses, partnerships, and trusts.',
     subServices: [
-      'Accounts Payable Management',
-      'Accounts Receivable Management',
-      'Invoice Processing',
-      'Payment Processing',
-      'Vendor Management',
-      'Customer Collections',
-      'Aging Reports',
+      'Individual Tax Returns',
+      'Business Tax Returns',
+      'Partnership Tax Return',
+      'Sole Trader Tax Returns',
+      'Company Tax Return',
+      'Trust Tax Return',
     ],
   },
   {

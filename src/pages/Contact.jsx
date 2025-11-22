@@ -21,16 +21,6 @@ const contactInfo = [
     details: ['info@vervesolution.in', 'support@vervesolution.in'],
   },
   {
-    icon: FiPhone,
-    title: 'Call Us',
-    details: ['+91 98765 43210', '+91 98765 43211'],
-  },
-  {
-    icon: FiMapPin,
-    title: 'Visit Us',
-    details: ['Office No. 301, Business Hub', 'Mumbai, Maharashtra 400001, India'],
-  },
-  {
     icon: FiClock,
     title: 'Business Hours',
     details: ['Monday - Friday: 10:00 AM - 7:00 PM', 'Saturday: 10:00 AM - 2:00 PM'],
@@ -54,7 +44,7 @@ export default function Contact() {
           </VStack>
           
           {/* Contact Information */}
-          <SimpleGrid columns={{ base: 1, md: 2, lg: 4 }} spacing={6} w="full">
+          <SimpleGrid columns={{ base: 1, md: 2 }} spacing={6} w="full">
             {contactInfo.map((info, index) => (
               <Card key={index} textAlign="center">
                 <CardBody p={6}>
@@ -112,22 +102,11 @@ export default function Contact() {
                   
                   <VStack spacing={4} align="start">
                     <Text fontSize="md" fontWeight="semibold" color="text.primary">
-                      Office Location
+                      Get Directions
                     </Text>
                     <Text fontSize="sm" color="text.secondary">
-                      Our office is strategically located in Mumbai's business district, 
-                      easily accessible by local trains and with convenient parking facilities.
+                      Contact us via email for detailed location information and directions to our office.
                     </Text>
-                    <VStack align="start" spacing={1}>
-                      <Text fontSize="sm" color="text.primary" fontWeight="semibold">
-                        Address:
-                      </Text>
-                      <Text fontSize="sm" color="text.secondary">
-                        Office No. 301, Business Hub<br />
-                        Mumbai, Maharashtra 400001<br />
-                        India
-                      </Text>
-                    </VStack>
                   </VStack>
                 </VStack>
               </CardBody>

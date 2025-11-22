@@ -18,10 +18,10 @@ import { Link as RouterLink } from 'react-router-dom';
 
 const services = [
   {
-    title: 'Accounts Payable & Receivable',
-    description: 'Professional management of your business payments and collections to maintain healthy cash flow.',
+    title: 'Taxation Services',
+    description: 'Comprehensive tax preparation and compliance services for individuals, businesses, and trusts.',
     icon: FiDollarSign,
-    features: ['Accounts Payable', 'Accounts Receivable', 'Payment Processing'],
+    features: ['Individual Tax Returns', 'Business Tax Returns', 'Partnership Tax Return'],
     color: 'green',
   },
   {
