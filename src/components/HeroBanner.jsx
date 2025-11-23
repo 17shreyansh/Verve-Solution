@@ -102,13 +102,7 @@ Growing with 50+ Happy Clients
                   </HStack>
                   <Text fontSize="sm" color="text.secondary">Years Experience</Text>
                 </VStack>
-                <VStack spacing={1}>
-                  <HStack>
-                    <Icon as={FiAward} color="primary.500" />
-                    <Text fontSize="2xl" fontWeight="bold" color="text.primary">24/7</Text>
-                  </HStack>
-                  <Text fontSize="sm" color="text.secondary">Support</Text>
-                </VStack>
+
               </HStack>
             </VStack>
             
