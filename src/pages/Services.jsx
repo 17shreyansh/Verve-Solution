@@ -36,10 +36,10 @@ const servicesData = [
   },
   {
     title: 'Payroll & BAS Services',
-    description: 'Complete payroll management and Business Activity Statement preparation to ensure compliance and accurate reporting.',
+    description: 'Complete payroll management including Single Touch Payroll and Business Activity Statement preparation to ensure compliance and accurate reporting.',
     subServices: [
-      'Single Touch Payroll',
-      'Payroll Processing',
+      'Single Touch Payroll (STP)',
+      'Payroll Processing & Management',
       'Employee Pay Slips',
       'BAS Preparation',
       'Superannuation Management',

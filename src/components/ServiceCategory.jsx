@@ -33,9 +33,9 @@ const services = [
   },
   {
     title: 'Payroll & BAS Services',
-    description: 'Complete payroll management and Business Activity Statement preparation for your business.',
+    description: 'Complete payroll management including Single Touch Payroll and Business Activity Statement preparation for your business.',
     icon: FiUsers,
-    features: ['Single Touch Payroll', 'Payroll Management', 'BAS Preparation'],
+    features: ['Single Touch Payroll (STP)', 'Payroll Management', 'BAS Preparation'],
     color: 'purple',
   },
   {

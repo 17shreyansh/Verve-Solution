@@ -34,14 +34,9 @@ const showcaseServices = [
     color: 'orange',
   },
   {
-    title: 'Single Touch Payroll',
+    title: 'Payroll (STP)',
     icon: FiUsers,
     color: 'teal',
-  },
-  {
-    title: 'Payroll',
-    icon: FiTrendingUp,
-    color: 'pink',
   },
   {
     title: 'Cash Flow Management',
@@ -84,7 +79,7 @@ export default function ServiceShowcase() {
             </Text>
           </VStack>
           
-          <SimpleGrid columns={{ base: 2, md: 4, lg: 8 }} spacing={{ base: 6, md: 8 }} w="full">
+          <SimpleGrid columns={{ base: 2, md: 4, lg: 7 }} spacing={{ base: 6, md: 8 }} w="full" justifyItems="center">
             {showcaseServices.map((service, index) => (
               <VStack 
                 key={index} 
