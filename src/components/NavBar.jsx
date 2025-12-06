@@ -86,7 +86,7 @@ export default function NavBar() {
               w={{ base: 8, md: 10 }}
             />
             <Text fontSize={{ base: 'lg', md: 'xl' }} fontWeight="600" color="text.primary" fontFamily="Poppins" letterSpacing="tight">
-              Verve Solution <Text as="span" fontWeight="400" fontSize={{ base: 'sm', md: 'md' }} color="text.secondary">Pvt Ltd</Text>
+              Verve Solution
             </Text>
           </HStack>
           <HStack as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }}>

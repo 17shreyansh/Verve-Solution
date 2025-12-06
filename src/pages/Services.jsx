@@ -13,12 +13,12 @@ const servicesData = [
     title: 'Taxation Services',
     description: 'Comprehensive tax preparation and compliance services for individuals, businesses, partnerships, and trusts.',
     subServices: [
-      'Individual Tax Returns',
-      'Business Tax Returns',
-      'Partnership Tax Return',
-      'Sole Trader Tax Returns',
-      'Company Tax Return',
-      'Trust Tax Return',
+      'Individual Tax Lodgement',
+      'Business Tax Lodgement',
+      'Partnership Tax Lodgement',
+      'Sole Trader Tax Lodgement',
+      'Company Tax Lodgement',
+      'Trust Tax Lodgement',
     ],
   },
   {

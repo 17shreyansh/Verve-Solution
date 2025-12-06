@@ -27,7 +27,7 @@ export default function Footer() {
                 h={{ base: 6, md: 8 }}
               />
               <Text fontSize={{ base: 'md', md: 'lg' }} fontWeight="600" color="white" fontFamily="Poppins" letterSpacing="tight">
-                Verve Solution <Text as="span" fontWeight="400" fontSize={{ base: 'sm', md: 'md' }} color="gray.300">Pvt Ltd</Text>
+                Verve Solution
               </Text>
             </HStack>
             <Text fontSize={{ base: 'xs', md: 'sm' }} color="gray.300" fontWeight="medium">
@@ -64,7 +64,7 @@ export default function Footer() {
             </Text>
             <VStack spacing={2} align={{ base: 'center', lg: 'start' }}>
               <Text fontSize={{ base: 'xs', md: 'sm' }} color="gray.300">
-                info@vervesolution.in
+                info@vervesolution.com.au
               </Text>
             </VStack>
           </VStack>
@@ -80,7 +80,7 @@ export default function Footer() {
           textAlign="center"
         >
           <Text fontSize={{ base: 'xs', md: 'sm' }} color="gray.400">
-            © 2024 Verve Solution Pvt Ltd. All rights reserved.
+            © 2024 Verve Solution. All rights reserved.
           </Text>
           <HStack spacing={{ base: 6, md: 4 }} flexWrap="wrap" justify="center">
             <Link href="#" fontSize={{ base: 'xs', md: 'sm' }} color="gray.400" _hover={{ color: 'primary.300' }}>

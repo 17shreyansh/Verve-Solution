@@ -18,7 +18,7 @@ const contactInfo = [
   {
     icon: FiMail,
     title: 'Email Us',
-    details: ['info@vervesolution.in', 'support@vervesolution.in'],
+    details: ['info@vervesolutioncomau', 'support@vervesolutioncomau'],
   },
   {
     icon: FiClock,
