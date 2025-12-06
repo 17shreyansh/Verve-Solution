@@ -65,13 +65,13 @@ export default function WhyChooseUs() {
               <CardBody p={{ base: 6, md: 8 }}>
                 <VStack spacing={4}>
                   <Box p={{ base: 3, md: 4 }} bg="primary.50" borderRadius="full">
-                    <Icon as={FiClock} boxSize={{ base: 6, md: 8 }} color="primary.500" />
+                    <Icon as={FiAward} boxSize={{ base: 6, md: 8 }} color="primary.500" />
                   </Box>
                   <VStack spacing={1}>
-                    <AnimatedCounter end={2} suffix="+" />
-                    <Text color="text.primary" fontSize={{ base: "md", md: "lg" }} fontWeight="semibold">Years Experience</Text>
+                    <AnimatedCounter end={100} suffix="%" />
+                    <Text color="text.primary" fontSize={{ base: "md", md: "lg" }} fontWeight="semibold">Expert Guidance</Text>
                     <Text fontSize="sm" color="text.secondary">
-                      Growing with clients
+                      Professional support
                     </Text>
                   </VStack>
                 </VStack>
@@ -85,10 +85,10 @@ export default function WhyChooseUs() {
                     <Icon as={FiUsers} boxSize={{ base: 6, md: 8 }} color="blue.500" />
                   </Box>
                   <VStack spacing={1}>
-                    <AnimatedCounter end={50} suffix="+" />
-                    <Text color="text.primary" fontSize={{ base: "md", md: "lg" }} fontWeight="semibold">Happy Clients</Text>
+                    <AnimatedCounter end={100} suffix="%" />
+                    <Text color="text.primary" fontSize={{ base: "md", md: "lg" }} fontWeight="semibold">Affordable Pricing</Text>
                     <Text fontSize="sm" color="text.secondary">
-                      Across 5+ cities
+                      Budget-friendly for startups
                     </Text>
                   </VStack>
                 </VStack>

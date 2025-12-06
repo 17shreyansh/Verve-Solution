@@ -20,7 +20,10 @@ export default function HeroBanner() {
   return (
     <Box 
       bg="linear-gradient(135deg, rgba(247,249,251,1) 0%, rgba(237,242,247,1) 100%)"
-      py={{ base: 20, md: 28 }}
+      minH={{ base: 'auto', md: '100vh' }}
+      display="flex"
+      alignItems="center"
+      py={{ base: 20, md: 0 }}
       position="relative"
       overflow="hidden"
     >
@@ -39,22 +42,7 @@ export default function HeroBanner() {
         <SimpleGrid columns={{ base: 1, lg: 2 }} spacing={16} alignItems="center">
           <Stack spacing={8}>
             {/* Badge */}
-            <HStack>
-              <Badge 
-                colorScheme="green" 
-                px={3} 
-                py={1} 
-                borderRadius="full" 
-                fontSize="sm"
-                bg="primary.50"
-                color="primary.700"
-                border="1px solid"
-                borderColor="primary.200"
-              >
-                <Icon as={FiAward} mr={1} />
-Growing with 50+ Happy Clients
-              </Badge>
-            </HStack>
+         
             
             <VStack align="start" spacing={6}>
               <Heading
@@ -86,24 +74,7 @@ Growing with 50+ Happy Clients
                 company formation, tax filing, and expert business guidance.
               </Text>
               
-              {/* Trust Indicators */}
-              <HStack spacing={8} py={4}>
-                <VStack spacing={1}>
-                  <HStack>
-                    <Icon as={FiUsers} color="primary.500" />
-                    <Text fontSize="2xl" fontWeight="bold" color="text.primary">50+</Text>
-                  </HStack>
-                  <Text fontSize="sm" color="text.secondary">Happy Clients</Text>
-                </VStack>
-                <VStack spacing={1}>
-                  <HStack>
-                    <Icon as={FiGlobe} color="primary.500" />
-                    <Text fontSize="2xl" fontWeight="bold" color="text.primary">2+</Text>
-                  </HStack>
-                  <Text fontSize="sm" color="text.secondary">Years Experience</Text>
-                </VStack>
 
-              </HStack>
             </VStack>
             
             <Stack direction={{ base: 'column', sm: 'row' }} spacing={4} pt={4}>
@@ -134,89 +105,62 @@ Growing with 50+ Happy Clients
             </Stack>
           </Stack>
           
-          <Box position="relative">
-            {/* Main Image Container */}
-            <Box
-              bg="white"
-              borderRadius="2xl"
-              boxShadow="2xl"
-              p={8}
-              position="relative"
-              overflow="hidden"
-            >
-              <Box
-                bg="linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%)"
-                h={{ base: '350px', md: '450px' }}
-                borderRadius="xl"
-                display="flex"
-                alignItems="center"
-                justifyContent="center"
-                color="gray.500"
-                position="relative"
-              >
-                <VStack spacing={4}>
-                  <Icon as={FiUsers} boxSize={12} color="primary.300" />
-                  <Text fontSize="lg" textAlign="center" fontWeight="semibold">
-                    Professional Corporate<br />Team Collaboration
-                  </Text>
-                </VStack>
-                
-                {/* Floating Elements */}
-                <Box
-                  position="absolute"
-                  top="4"
-                  right="4"
-                  bg="primary.500"
-                  color="white"
-                  p={3}
-                  borderRadius="lg"
-                  boxShadow="lg"
-                >
-                  <Icon as={FiAward} boxSize={5} />
-                </Box>
-                
-                <Box
-                  position="absolute"
-                  bottom="4"
-                  left="4"
-                  bg="white"
-                  p={3}
-                  borderRadius="lg"
-                  boxShadow="lg"
-                  border="1px solid"
-                  borderColor="border.light"
-                >
-                  <HStack>
-                    <Icon as={FiGlobe} color="primary.500" />
-                    <Text fontSize="sm" fontWeight="semibold">Global Reach</Text>
-                  </HStack>
-                </Box>
-              </Box>
-            </Box>
-            
-            {/* Background Decoration */}
+          <Box position="relative" h={{ base: '300px', md: '450px' }} display="flex" alignItems="center" justifyContent="center">
             <Box
               position="absolute"
-              top="-4"
-              right="-4"
-              w="20"
-              h="20"
-              bg="primary.100"
+              w="300px"
+              h="300px"
               borderRadius="full"
-              zIndex="-1"
+              bg="primary.100"
+              opacity="0.4"
+              filter="blur(60px)"
+              animation="pulse 3s ease-in-out infinite"
             />
             <Box
               position="absolute"
-              bottom="-6"
-              left="-6"
-              w="16"
-              h="16"
-              bg="accent.gold"
-              borderRadius="full"
+              top="20%"
+              right="10%"
+              w="150px"
+              h="150px"
+              borderRadius="30% 70% 70% 30% / 30% 30% 70% 70%"
+              bg="primary.500"
+              opacity="0.2"
+              animation="float 6s ease-in-out infinite"
+            />
+            <Box
+              position="absolute"
+              bottom="15%"
+              left="15%"
+              w="120px"
+              h="120px"
+              borderRadius="63% 37% 54% 46% / 55% 48% 52% 45%"
+              bg="blue.400"
               opacity="0.3"
-              zIndex="-1"
+              animation="float 8s ease-in-out infinite reverse"
+            />
+            <Box
+              position="absolute"
+              top="40%"
+              left="20%"
+              w="80px"
+              h="80px"
+              borderRadius="full"
+              border="3px solid"
+              borderColor="primary.300"
+              opacity="0.5"
+            />
+            <Box
+              position="absolute"
+              bottom="30%"
+              right="25%"
+              w="60px"
+              h="60px"
+              transform="rotate(45deg)"
+              bg="green.300"
+              opacity="0.3"
             />
           </Box>
+
         </SimpleGrid>
       </Container>
     </Box>

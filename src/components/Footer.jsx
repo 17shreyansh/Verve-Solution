@@ -79,9 +79,17 @@ export default function Footer() {
           spacing={{ base: 4, md: 0 }}
           textAlign="center"
         >
-          <Text fontSize={{ base: 'xs', md: 'sm' }} color="gray.400">
-            © 2024 Verve Solution. All rights reserved.
-          </Text>
+          <VStack spacing={2} align={{ base: 'center', md: 'start' }}>
+            <Text fontSize={{ base: 'xs', md: 'sm' }} color="gray.400">
+              © 2024 Verve Solution. All rights reserved.
+            </Text>
+            <Text fontSize={{ base: 'xs', md: 'sm' }} color="gray.500">
+              Made with ❤️ and craft by{' '}
+              <Link href="https://affobe.com/" isExternal color="primary.300" _hover={{ color: 'primary.400' }}>
+                AFFOBE
+              </Link>
+            </Text>
+          </VStack>
           <HStack spacing={{ base: 6, md: 4 }} flexWrap="wrap" justify="center">
             <Link href="#" fontSize={{ base: 'xs', md: 'sm' }} color="gray.400" _hover={{ color: 'primary.300' }}>
               Privacy Policy
